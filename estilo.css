@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Outfit:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+background: hsl(212, 45%, 89%);
+min-height: 100vh;
+display: flex;
+align-items: center;
+font-size: 15px;
+}
+
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+.card{
+    background-color: #fff;
+    padding: 18px;
+    border-radius: 7%;
+    text-align: center;
+    margin: 0 1rem;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 6%;
+}
+.text h2{
+    margin-top: 10px;
+color:hsl(218, 44%, 22%)
+}
+
+.text p{
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
